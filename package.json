@@ -13,9 +13,8 @@
     "react-component",
     "ui"
   ],
-  "repository": "git@github.com:superblocks/react-diff-viewer.git",
+  "repository": "https://github.com/superblocksteam/react-diff-viewer.git",
   "license": "MIT",
-  "author": "Superblocks",
   "main": "lib/index",
   "typings": "lib/index",
   "scripts": {
