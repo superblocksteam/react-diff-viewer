@@ -1,6 +1,7 @@
 import * as React from "react";
 import * as PropTypes from "prop-types";
 import cn from "classnames";
+import memoize from "memoize-one";
 
 import {
   computeLineInformation,
@@ -13,11 +14,6 @@ import computeStyles, {
   ReactDiffViewerStylesOverride,
   ReactDiffViewerStyles,
 } from "./styles";
-
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const m = require("memoize-one");
-
-const memoize = m.default || m;
 
 export enum LineNumberPrefix {
   LEFT = "L",

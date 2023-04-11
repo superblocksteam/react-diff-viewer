@@ -5,15 +5,16 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "noImplicitAny": true,
-    "target": "es5",
+    "target": "es6",
     "declaration": true,
     "downlevelIteration": true,
-    "lib": ["es2017", "dom"],
+    "esModuleInterop": true,
+    "lib": ["es2022", "dom"],
     "types": [
       "mocha",
       "node"
     ]
   },
-  "include": ["./src/*", "enzyme.js"],
+  "include": ["./src/*"],
   "exclude": ["node_modules"],
 }
