@@ -1,13 +1,16 @@
-require('./style.scss');
+import './style.scss';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
 import ReactDiff, { DiffMethod } from '../../lib/index';
 
-const oldJs = require('./diff/javascript/old.rjs').default;
-const newJs = require('./diff/javascript/new.rjs').default;
+// @ts-ignore
+import oldJs from './diff/javascript/old.rjs';
+// @ts-ignore
+import newJs from './diff/javascript/new.rjs';
 
-const logo = require('../../logo.png');
+// @ts-ignore
+import logo from '../../logo.png';
 
 interface ExampleState {
   splitView?: boolean;
