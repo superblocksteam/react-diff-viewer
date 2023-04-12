@@ -1,6 +1,6 @@
 {
-  "name": "react-diff-viewer",
-  "short_name": "react-diff-viewer",
+  "name": "@superblocksteam/react-diff-viewer",
+  "short_name": "@superblocksteam/react-diff-viewer",
   "description": null,
   "dir": "auto",
   "lang": "en-US",
